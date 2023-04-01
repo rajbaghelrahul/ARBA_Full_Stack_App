@@ -1,0 +1,10 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(120deg,#00abc5, #7B56B7);
+}
+@media (max-width: 768px) {
+    .box {
+        display: none;
+    }   
+}
